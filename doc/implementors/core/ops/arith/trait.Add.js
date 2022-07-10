@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["kodak"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.61.0/core/ops/arith/trait.Add.html\" title=\"trait core::ops::arith::Add\">Add</a>&lt;<a class=\"struct\" href=\"kodak/struct.Dim.html\" title=\"struct kodak::Dim\">Dim</a>&gt; for <a class=\"struct\" href=\"kodak/struct.Loc.html\" title=\"struct kodak::Loc\">Loc</a>","synthetic":false,"types":["kodak::Loc"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
