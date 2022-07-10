@@ -415,8 +415,6 @@ impl Image {
         let cropped = other.crop( Region::from_top_left(crop_dims)).unwrap();
         println!("The cropped image is {} by {}", cropped.width, cropped.height);
 
-        let idx_offset = offset.as_index(self.get_dimensions());
-
         let mut working_copy = self.pixels.clone();
         for p in cropped.pixels.iter().enumerate() {
             let loc_on_other = Loc::from_index(p.0, cropped.get_dimensions());
